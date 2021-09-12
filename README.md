@@ -4,7 +4,7 @@ A innovatiove solution to the new technology gap between all ages and circumstan
 We created a SMS-based application that is compatible with all platforms of access. 
 A digital wallet app, where you can specify your transaction and the AI will complete it.
 ** **
-# Prototype:
+# Prototype: https://akshxrx.github.io/SHACKS/
 
 ** **
 # Authors
