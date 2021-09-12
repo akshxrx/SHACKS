@@ -25,13 +25,21 @@ function getBotResponse(input) {
         y=1;
         saving();
         chequing();
+        return "Check phone for fingerprint or enter your birthday (dd/mm)";
+    } else if (input == ""){
         return "Done! anything else?";
+    } else if (input == "0410"){
+        return "Done! anything else?";
+
+    } else if (input == "1412"){
+        return "Done! anything else?";
+
     }  else if (input == "send 50 to my grandson"){
         return "Sorry, there is no one with that name in your contact";
     }   else if (input == "send 50 to charlie"){
         y=2;
         chequing();
-        return "Done! anything else xD";
+        return "check phone for fingerprint or enter your birthday (dd/mm)";
     }    else if (input == "nothing, thank you"){
         return "your welcome";
     }     else if (input == "nothing, ty"){
@@ -46,6 +54,10 @@ function getBotResponse(input) {
      else {
         return "I dont understand : (";
     }
+}
+
+function biometrics(){
+    return "check phone for fingerprint or enter your birthday";
 }
 
 function saving(){

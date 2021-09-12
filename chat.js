@@ -40,9 +40,6 @@ function getHardResponse(userText) {
 function getResponse() {
     let userText = $("#textInput").val();
 
-    if (userText == "") {
-        userText = "Goodbye!";
-    }
 
     let userHtml = '<p class="userText"><span>' + userText + '</span></p>';
 
