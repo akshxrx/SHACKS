@@ -7,6 +7,8 @@ A digital wallet app, where you can specify your transaction and the AI will com
 # Prototype: 
 
 https://akshxrx.github.io/SHACKS/
+           
+https://www.figma.com/team_invite/redeem/tfrYgOm3DvRyYraa300zW7
 
 ** **
 # Authors
