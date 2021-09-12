@@ -10,7 +10,7 @@ function getBotResponse(input) {
     } else if (input == "lets play!") {
         return "I can play rock, paper and scissors!";
     } else if (input == "okay") {
-        return "Say it on shoot! Rock, paper, scissor, SHOOT!";
+        return "Say it on shoot! Rock, paper, scissors, SHOOT!";
     }
 
 
