@@ -4,22 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="back.css">
+    <link rel="stylesheet" href="style.css">
     <title>Digital Wallet</title>
     <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="bot.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="main">
 
         <div class="phone">
             <h1 class="h1"> Scotia Bank </h1>
+            <div class="content">
+                <div class="full-chat-block">
+                    <!-- Message Container -->
+                    <div class="outer-container">
+                        <div class="chat-container">
+                            <!-- Messages -->
+                            <div id="chatbox">
+                                <h5 id="chat-timestamp"></h5>
+                                <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                            </div>
+    
+                            <!-- User input box -->
+                            <div class="chat-bar-input-block">
+                                <div id="userInput">
+                                    <input id="textInput" class="input-box" type="text" name="msg"
+                                        placeholder="Tap 'Enter' to send a message">
+                                    <p></p>
+                                </div>
+    
+                                <div class="chat-bar-icons">
+                                    <i id="chat-icon" style="color: rgb(255, 255, 255);" class="fa fa-fw fa-send"
+                                        onclick="sendButton()"></i>
+                                </div>
+                            </div>
+    
+                            <div id="chat-bar-bottom">
+                                <p></p>
+                            </div>
+    
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
         </div>
 
         <div class="saving">
+            <h1 class="h2 sav"> Saving Acc Balance: $100 </h1>
         </div>
 
         <div class="chequing">
+            <h1 class="h2 cheq"></h1>
         </div>
 
         <div class="investor">
@@ -28,7 +66,9 @@
 
 
     </div>
-    <script src="function.js"></script>
-
 </body>
+    <script src="function.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="responses.js"></script>
+    <script src="chat.js"></script>
 </html>

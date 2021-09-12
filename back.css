@@ -22,5 +22,9 @@ body{
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-color: #9C9C9C;
-    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+html {
+    scroll-behavior: smooth;
 }
