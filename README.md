@@ -20,7 +20,7 @@ linkedin: https://www.linkedin.com/in/kara-huynh/
 ## Akshara Debnath
 github: https://github.com/akshxrx
            
-linkedin: https://www.linkedin.com/in/akshara-debnath/
+linkedin: https://www.linkedin.com/in/akshara-debnath-7085091b5/
 
 ## Dana Min
 github: https://github.com/danam322
