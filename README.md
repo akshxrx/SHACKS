@@ -10,16 +10,20 @@ A digital wallet app, where you can specify your transaction and the AI will com
 # Authors
 ## Kara Huynh
 github: https://github.com/KaraHuynh
+           
 linkedin: https://www.linkedin.com/in/vanessa-lobo-407158200/
 
 ## Akshara Debnath
 github: https://github.com/akshxrx
+           
 linkedin: https://www.linkedin.com/in/kara-huynh/
 
 ## Dana Min
 github: https://github.com/danam322
+           
 linkedin: https://www.linkedin.com/in/da-seo-min/
 
 ## Ryan Yu
 github: https://github.com/ryanyu131
+           
 linkedin: https://www.linkedin.com/in/ryan-yu-5b6990189/
