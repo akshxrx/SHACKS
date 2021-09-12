@@ -15,12 +15,12 @@ https://www.figma.com/team_invite/redeem/tfrYgOm3DvRyYraa300zW7
 ## Kara Huynh
 github: https://github.com/KaraHuynh
            
-linkedin: https://www.linkedin.com/in/vanessa-lobo-407158200/
+linkedin: https://www.linkedin.com/in/kara-huynh/
 
 ## Akshara Debnath
 github: https://github.com/akshxrx
            
-linkedin: https://www.linkedin.com/in/kara-huynh/
+linkedin: https://www.linkedin.com/in/akshara-debnath-7085091b5/
 
 ## Dana Min
 github: https://github.com/danam322
