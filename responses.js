@@ -1,6 +1,19 @@
 let y = 0;
 
 function getBotResponse(input) {
+    if (input == "rock") {
+        return "paper";
+    } else if (input == "paper") {
+        return "scissors";
+    } else if (input == "scissors") {
+        return "rock";
+    } else if (input == "lets play!") {
+        return "I can play rock, paper and scissors!";
+    } else if (input == "okay") {
+        return "Say it on shoot! Rock, paper, scissor, SHOOT!";
+    }
+
+
     // Simple responses
     if (input == "hello") {
         return "Hello there!";
