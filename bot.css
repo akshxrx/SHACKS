@@ -60,6 +60,7 @@
 
 #userInput {
     width: 75%;
+    border: solid black 1em;
 }
 
 .input-box {
@@ -83,6 +84,7 @@
     font-weight: normal;
     text-align: right;
     clear: both;
+    border: solid black 1em;
 }
 
 .userText span {

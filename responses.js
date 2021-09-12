@@ -3,23 +3,32 @@ let y = 0;
 function getBotResponse(input) {
     // Simple responses
     if (input == "hello") {
-        // y=1;
-        // saving();
         return "Hello there!";
     } else if (input == "goodbye") {
         return "Have a good day!";
     } else if (input == "Goodbye!"){
         return "Bye : )";
     }  else if (input == "send 10 to my chequing account"){
+        y=1;
+        saving();
+        chequing();
         return "Done! anything else?";
     }  else if (input == "send 50 to my grandson"){
         return "Sorry, there is no one with that name in your contact";
     }   else if (input == "send 50 to charlie"){
+        y=2;
+        chequing();
         return "Done! anything else xD";
     }    else if (input == "nothing, thank you"){
         return "your welcome";
     }     else if (input == "nothing, ty"){
         return "yw <3";
+    }     else if (input == "invest 400"){
+        return "Which company would you like to invest in?";
+    }     else if (input == "AQN"){
+        return "Done : ) anything else?";
+    }      else if (input == "no"){
+        return "Bye, good day <3";
     }
      else {
         return "I dont understand : (";
@@ -27,7 +36,22 @@ function getBotResponse(input) {
 }
 
 function saving(){
-    if(y=1){
-        document.getElementById("sav").value = "Saving Acc Balance: $90";  
+    let kep = 100;
+    if(y==1){
+        kep = kep - 10;
+        return document.getElementById("sav").innerHTML = "Saving Acc Balance: $" + kep;
+    }
+}
+
+function chequing(){
+    let kep = 100;
+    if(y==1){
+        kep = kep + 10;
+        return document.getElementById("cheq").innerHTML = "Chequing Acc Balance: $" + kep;
+    }
+    else if(y==2){
+        kep = kep - 50;
+        return document.getElementById("cheq").innerHTML = "Chequing Acc Balance: $" + kep;
+  
     }
 }
